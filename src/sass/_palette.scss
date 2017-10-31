@@ -1,0 +1,19 @@
+
+$dark-primary-color    : #455A64;
+$default-primary-color : #607D8B;
+$light-primary-color   : #CFD8DC;
+$text-primary-color    : #FFFFFF;
+$accent-color          : #FF5722;
+$primary-text-color    : #212121;
+$secondary-text-color  : #757575;
+$divider-color         : #BDBDBD;
+
+.dark-primary-color    { background: $dark-primary-color !important; }
+.default-primary-color { background: $default-primary-color !important; }
+.light-primary-color   { background: $light-primary-color !important; }
+.text-primary-color    { color: $text-primary-color !important; }
+.accent-color          { background: $accent-color !important; }
+.primary-text-color    { color: $primary-text-color !important; }
+.secondary-text-color  { color: $secondary-text-color !important; }
+.divider-color         { border-color: $divider-color !important; }
+.light-c-text          { color: $light-primary-color;}

@@ -1,0 +1,219 @@
+<!--navigation-->
+<navigation></navigation>
+
+<!--main section-->
+<section-front></section-front>
+
+<!--trabajos-->
+<div class="section scrollspy" id="work">
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container section scrollme">
+            <div class="row center animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
+              <h5 class="header col s12 white-text">{{getI18n('tit1').desc}}</h5>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="assets/img/background2.jpg" alt="background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12 center">
+              <h3 class="center deep-orange-text"><i class="large material-icons">play_for_work</i></h3>
+              <h4>{{getI18n('work_tit').desc}}</h4>
+                <p class="left-align light">{{getI18n('sec1').desc}}</p>
+            </div>
+            <ul class="row" id="workCards">
+                <li class="col s12 m6 l3" *ngFor="let work of works">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" [src]="work.pict">
+                        </div>
+                        <div class="card-content activator">
+                            <i class="material-icons right">more_vert</i>
+                            <span class="card-title activator grey-text text-darken-4">{{work.name}}</span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="material-icons right">close</i>
+                                {{work.title}}
+                            </span>
+                            <p>{{work.desc}}</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <p class="left-align light">{{getI18n('sec1_2').desc}}</p>
+
+          </div>
+        </div>
+    </div>
+    <h5 class="center">{{getI18n('tit1_2').desc}}</h5>
+    <div id="chartdiv"></div>
+</div>
+
+<!--process section-->
+<section-process></section-process>
+
+<!--about me section-->
+<section-about></section-about>
+
+<!--contact section-->
+<section-contact></section-contact>
+
+<!--footer-->
+<footer class="page-footer default-primary-color text-lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">In short</h5>
+          <p class="grey-text text-lighten-4"><strong>SADMedia, desarrollo visual a medida</strong><br/>
+                <em>{{getI18n('slogan').desc}}</em><br/><br/>
+                Daniel G&oacute;mez<br/>
+                C/ Francisco Rivas, 1.<br/>
+                Torrelodones 28250 [Madrid]<br/>
+                0034 676 868 046<br/>
+                ddaniel.gomez@gmail.com</p>
+            <p class="social">
+                <a href="https://www.facebook.com/ddaniel.gomez"><img src="assets/img/facebook.png" alt="facebook" /></a>
+                <a href="https://plus.google.com/u/0/+DanielG%C3%B3mezM"><img src="assets/img/g+.png" alt="G+" /></a>
+                <a href="https://www.linkedin.com/in/ddanielgomez/"><img src="assets/img/linkedin.png" alt="LinkedIn" /></a>
+            </p>
+        </div>
+        <div class="col l6 s12 center">
+          <h5 class="white-text">Drupal member</h5>
+          <img class="drupalcon" src="assets/img/Drupal_Association_ind_member_217.png" />
+          <p class="white-text"><i class="material-icons" style="vertical-align: sub;">dashboard</i> Drupal builder from 2006</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p>
+        <!-- 
+            if ($lang == "es") {
+                print "<a class='white-text underline' href='index.php?lang=en'><img src='img/en.svg'/>Better in English?</a>";
+            } else {
+                print "<a class='white-text underline' href='index.php?lang=es'><img src='img/es.svg'/>Mejor en Castellano?</a>";
+            }
+        -->
+        </p>
+      </div>
+    </div>
+</footer>
+
+
+<!--
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/cibeles.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">Cibeles.net</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Identidad para publicaciones</span>
+        <p>Identidad corporativa. Imagen de marca.</p>
+    </div>
+</div>
+</li>
+
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/editmaker.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">EditMaker</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Content Management System propio</span>
+        <p>Software propio con sistema propio</p>
+    </div>
+</div>
+</li>
+
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/haffiliation.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">Haffiliation</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Sistema de afiliados para venta online</span>
+        <p>Afiliaci&oacute;n para vendedores online.</p>
+    </div>
+</div>
+</li>
+
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/pryconsa.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">Pryconsa</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Gran constructora inmobiliaria</span>
+        <p>Identidad y frescura sobre una empresa de prestigio.</p>
+    </div>
+</div>
+</li>
+
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/islacanela.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">Isla Canela</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Una isla al completo</span>
+        <p>Promoci&oacute;n del territorio y la oferta tur&iacute;stica.</p>
+    </div>
+</div>
+</li>
+
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/travel2ibiza.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">Travel2Ibiza</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Promoci&oacute;n tur&iacute;stica balear</span>
+        <p>Servicios m&aacute;s all&aacute; de los cl&aacute;sicos.</p>
+    </div>
+</div>
+</li>
+
+<li class="col s12 m6 l3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" src="assets/img/work/lashadas.jpg">
+    </div>
+    <div class="card-content activator">
+        <i class="material-icons right">more_vert</i>
+        <span class="card-title activator grey-text text-darken-4">Las Hadas</span>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Escuela infantil certificada</span>
+        <p>Minisite con gesti&oacute;n de usuarios.</p>
+    </div>
+</div>
+</li-->

@@ -1,0 +1,5 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /video-interface.php
+Disallow: /video-elliott.php
+Disallow: *.mp4

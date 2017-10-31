@@ -1,0 +1,81 @@
+body	{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #66CCCC;
+SCROLLBAR-FACE-COLOR: #999;
+SCROLLBAR-HIGHLIGHT-COLOR: #999;
+SCROLLBAR-SHADOW-COLOR: #999;
+SCROLLBAR-3DLIGHT-COLOR: #990000;
+SCROLLBAR-ARROW-COLOR: #990000;
+SCROLLBAR-TRACK-COLOR: #999;
+SCROLLBAR-DARKSHADOW-COLOR: #990000;
+}
+
+h1	{
+font-size:18px;
+color:#CCCCCC;
+}
+
+h2	{
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #CCC;
+font-weight:normal;
+}
+
+#diseño_web_madrid_creacion_web {
+position:absolute;
+top:-100px;
+visibility: hidden; z-index: 1;;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1px;
+color:#000000;
+}
+
+#creacionDiv{
+	position:absolute;
+	top:88px;
+	height:341;
+	width:310;
+	overflow:auto;
+	visibility: visible;
+	z-index:10;
+	}
+
+
+.link01 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #66CCCC; text-decoration: none}
+.mini {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #666666}
+.miniform { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #CCCCCC}
+INPUT.texto { align: left; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; font-style: normal; text-decoration: none; text-align: left; background-color: #999999; color: #990000; ; border-style: none}   
+TEXTAREA.texto { align: middle; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; font-style: normal; text-decoration: none; text-align: left; background-color: silver; color: #003300; ; border-style: none}
+.listacabng14 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold; color: #000000}
+.elemform12ng { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #CCCCCC}
+SELECT.texto { align: middle; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; font-style: normal; text-decoration: none; text-align: centre; background-color: Silver; color: #003300; ; border-style: none}
+.comu {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #990000}
+.elemform12bl { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000033}
+.link01osc { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #003366; text-decoration: underline}
+.link01ng { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration: underline }
+.miniRojo { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #666666}
+.micro { font-family: Arial, Helvetica, sans-serif; font-size: 1px;}
+.minibl {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #CCCCCC}
+A.minibl:link { TEXT-DECORATION: none }
+A.minibl:visited { TEXT-DECORATION: none }
+A.minibl:active { TEXT-DECORATION: none }
+A.minibl:hover { BACKGROUND-COLOR: #990000}
+.minimenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	
+}
+A.minimenu:link { TEXT-DECORATION: none }
+A.minimenu:visited { TEXT-DECORATION: none }
+A.minimenu:active { TEXT-DECORATION: none }
+A.minimenu:hover { BACKGROUND-COLOR: #990000; width: 90px;}
+
+INPUT.texto2 { align: left; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; font-style: normal; text-decoration: none; text-align: centre; background-color: #990000; color: #FFFFFF; ; line-height: 15px; border-style: inset}
+input.botonpq { align: left; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; font-style: normal; text-decoration: none; text-align: centre; background-color: #990000; color: #FFFFFF; ; line-height: 9px; cursor: hand ; height: 17px;  border-style: outset}
+SELECT.texto2 { align: middle; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; font-style: normal; text-decoration: none; text-align: centre; background-color: #990000; color: #CCCCCC; ; border-style: none}
+TEXTAREA.texto2 { align: middle; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; text-decoration: none; text-align: left; background-color: silver; color: #990000; ; border-style: none}
+.tdpq { height: 1px; background-color: #990000; font-family: Arial, Helvetica, sans-serif; font-size: 1px; }
+
