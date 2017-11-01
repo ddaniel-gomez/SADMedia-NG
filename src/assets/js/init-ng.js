@@ -1,7 +1,7 @@
 var initPage = (function() { 
   return { 
     init: function() {
-    	$('.button-collapse').sideNav({edge: 'right'});
+    	/*$('.button-collapse').sideNav({edge: 'right'});
 	    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) == false ) {
 	      $('.parallax').parallax();
 	    }
@@ -129,7 +129,7 @@ var initPage = (function() {
 		  "enabled": false
 		},
 		"addClassNames": true
-		} );
+		} );*/
     }, //init
 
     sendEmail: function(){

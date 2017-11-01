@@ -10,6 +10,7 @@ import { FrontComponent } from './static/front.component';
 import { AboutComponent } from './static/section-about.component';
 import { ProcessComponent } from './static/section-process.component';
 import { ContactComponent } from './forms/section-contact.component';
+import { FooterComponent } from './static/footer.component';
 
 @NgModule({
   imports: [ 
@@ -23,7 +24,8 @@ import { ContactComponent } from './forms/section-contact.component';
   	AboutComponent, 
   	FrontComponent, 
   	ProcessComponent, 
-  	ContactComponent
+  	ContactComponent,
+    FooterComponent
   ],
   providers: [ WorkService ],
   bootstrap: [ AppComponent ]

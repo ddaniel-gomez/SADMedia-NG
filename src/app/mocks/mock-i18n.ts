@@ -10,8 +10,10 @@ export const I18N: I18n[] = [
 	{ id:6, title: "slogan2", desc: "El diseño como forma de entender la comunicación digital"},
 	{ id:7, title: "localization", desc: "Localización"},
 	{ id:8, title: "loc_text", desc: "Nada como el tratamiento del usuario respecto a su mundo. Ubicación, uso de los metadatos, realidad aumentada. Geoposicionamiento, oferta centrada en los intereses de cada persona en cada lugar concreto."},
-	{ id:9, title: "ux", desc: "Experiencia de usuario"},
+	{ id:9, title: "ux", desc: "UX"},
 	{ id:10, title: "ux_text", desc: "La prioridad en el diseño revierte directamente en la experiencia del usuario que lo consume. Diseñar es facilitar, agilizar, reducir la curva de aprendizaje, optimizar el rendimiento. usabilidad, usabilidad..."},
+	{ id:32, title: "ixd", desc: "IxD"},
+	{ id:33, title: "ixd_text", desc: "El diseño de interacción es algo natural que lleva con nosotros desde el comienzo. Definir con exactitud los patrones mejor adaptados al arquetipo del usuario tras analizar su experiencia es una necesidad."},
 	{ id:11, title: "rwd_text", desc: "Diseño responsivo. Donde estés, con lo que estés. Utiliza lo que necesites donde lo necesites. Aprovechar cada micromomento ofreciendo lo que se demanda en ese instante."},
 	{ id:12, title: "tit1", desc: "La motivación es la clave de la vida"},
 	{ id:13, title: "sec1", desc: "Tanto como empleado, como freelance, como para amigos, como para mí mismo, he participado en unos cuantos proyectos. Aquí una pequeña referencia:"},
@@ -32,5 +34,10 @@ export const I18N: I18n[] = [
 	{ id:28, title: "email", desc: "Email"},
 	{ id:29, title: "name", desc: "Nombre"},
 	{ id:30, title: "resume", desc: "Ver Currículum ES"},
-	{ id:31, title: "resume2", desc: "Ver Currículum EN"}
+	{ id:31, title: "resume2", desc: "Ver Currículum EN"},
+	{ id:34, title: "identity", desc: "Identidad"},
+	{ id:35, title: "identidad_tit", desc: "Identidad y creatividad"},
+	{ id:36, title: "identidad_tit2", desc: "Logotipos"},
+	{ id:37, title: "identidad_sec2", desc: "Estudio y diseño de logotipos de compañía o producto. Manuales de marca, identidad corporativa visual."}
+	
 ];

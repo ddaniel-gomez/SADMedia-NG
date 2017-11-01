@@ -10,6 +10,7 @@ import { NavigationComponent } 	from './nav/navigation.component';
 import { FrontComponent } from './static/front.component';
 import { AboutComponent } 	from './static/section-about.component';
 import { ContactComponent } 	from './forms/section-contact.component';
+import { FooterComponent } 	from './static/footer.component';
 
 import 'assets/js/init-ng.js';
 
