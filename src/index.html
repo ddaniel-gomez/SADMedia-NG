@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <base href="/">
   <meta charset="utf-8">
   <title>SADMedia | Usabilidad y Diseño de Interface sin Contrariedades</title>
-  <base href="/">
   <meta name="theme-color" content="#455A64" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
   <link rel="stylesheet" href="assets/js/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/js/owl-carousel/owl.theme.default.min.css">
-  <!--script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxvNKWyJxHsUyT4D6PkMWer0Sy05-PD-4&callback=initMap" async defer></script-->
   <script type="text/javascript" src="assets/js/init-ng.js"></script>
 
   <link rel="stylesheet" href="assets/stylesheets/style.css"/>
@@ -35,12 +34,15 @@
 	</script>
 </head>
 	<body>
-		<app-root>Loading...</app-root>
+		<app-root>
+      <div class="first-load">Loading...</div>
+    </app-root>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.scrollme.min.js"></script>
     <script type="text/javascript" src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxvNKWyJxHsUyT4D6PkMWer0Sy05-PD-4" async defer></script>
     <script type="text/javascript" src="assets/js/pure.js"></script>
 	</body>
 </html>

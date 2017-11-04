@@ -1,0 +1,45 @@
+<!--work-->
+<div class="section">
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container section scrollme">
+            <div class="row center animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
+              <h5 class="header col s12 white-text">{{getI18n('tit1').desc}}</h5>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="assets/img/background2.jpg" alt="background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section scrollspy" id="work">
+          <div class="row">
+            <div class="col s12 center">
+              <h3 class="center deep-orange-text"><i class="large material-icons">play_for_work</i></h3>
+              <h4>{{getI18n('work_tit').desc}}</h4>
+              <p class="left-align light">{{getI18n('sec1').desc}}</p>
+            </div>
+          </div>
+          <div class="row row-flex">
+            <div class="box">
+              <div class="owl-carousel owl-theme content-box">
+                <div class="slide-block" *ngFor="let work of works">
+                    <div class="alt">
+                        <h3>{{work.title}}</h3>
+                        <p>{{work.desc}}</p>
+                    </div>
+                    <img [src]="work.pict">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 center">
+              <p class="left-align light">{{getI18n('sec1_2').desc}}</p>
+              <h5 class="center">{{getI18n('tit1_2').desc}}</h5>
+              <div id="chartdiv"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

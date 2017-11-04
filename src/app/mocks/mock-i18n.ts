@@ -23,7 +23,7 @@ export const I18N: I18n[] = [
 	{ id:17, title: "tit2_2", desc: "Flujos de trabajo"},
 	{ id:18, title: "sec2", desc: "Gestación y generación de ideas, resolución de problemas,... todo el proceso de creación es parte del proceso cognitivo del usuario."},
 	{ id:19, title: "tit3", desc: "Nada es simple, todo debe resultar sencillo"},
-	{ id:20, title: "sec3", desc: "Usabilidad y accesibilidad de aplicaciones, contenidos, arquitectura de la información, portales corporativos, animación, marketing online, diseño web, posicionamiento SEO, producción y postproducción de v&iacute;deo digital... Muchas han sido las Áreas que durante todos estos años he tratado, siempre orientado hacia la comunicación visual en formatos electrónicos."},
+	{ id:20, title: "sec3", desc: "Usabilidad y accesibilidad de aplicaciones, contenidos, arquitectura de la información, portales corporativos, animación, marketing online, diseño web, posicionamiento SEO, producción y postproducción de vídeo digital... Muchas han sido las Áreas que durante todos estos años he tratado, siempre orientado hacia la comunicación visual en formatos electrónicos."},
 	{ id:21, title: "tit3_2", desc: "Sobre mí"},
 	{ id:22, title: "tit3_3", desc: "Habilidades que entreno a diario... o casi!"},
 	{ id:23, title: "tit4", desc: "Los seres humanos son el potencial básico de todo el proceso"},
@@ -39,5 +39,4 @@ export const I18N: I18n[] = [
 	{ id:35, title: "identidad_tit", desc: "Identidad y creatividad"},
 	{ id:36, title: "identidad_tit2", desc: "Logotipos"},
 	{ id:37, title: "identidad_sec2", desc: "Estudio y diseño de logotipos de compañía o producto. Manuales de marca, identidad corporativa visual."}
-	
 ];
