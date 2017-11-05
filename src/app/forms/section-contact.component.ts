@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { I18n } 	from '../i18n/i18n';
 import { I18N }		from '../mocks/mock-i18n';
@@ -7,6 +7,7 @@ import { Contact }	from './contact';
 import 'assets/js/init-ng.js';
 
 declare var initPage: any;
+declare var google: any;
 
 
 @Component({
@@ -14,7 +15,7 @@ declare var initPage: any;
 	templateUrl: './section-contact.component.html'
 })
 
-export class ContactComponent {
+export class ContactComponent implements OnInit {
 	getI18n(title){
 	  return I18N.find(x => x.title === title);
 	}
@@ -32,6 +33,11 @@ export class ContactComponent {
 	onSubmit() { 
 		this.submitted = true;
 		debugger;
+	}
+
+	ngOnInit(): void {
+		$.getScript('../assets/js/init.js');
+		$.getScript('../assets/js/myMap.js');
 	}
 
 	// TODO: Remove this when we're done

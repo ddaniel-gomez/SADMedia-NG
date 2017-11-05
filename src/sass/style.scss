@@ -20,6 +20,7 @@ a.active {background: $accent-color; color: #fff;}
 .toast {line-height: 18px;}
 .underline {text-decoration: underline;}
 
+.parallax img {animation: fadein 1.7s;}​
 
 /*__________ header __________*/
 
@@ -356,6 +357,8 @@ footer.page-footer {margin: 0;}
   0%, 100% {transform: scale(1);}
   50% {transform: scale(1.1);}
 }
+
+@keyframes fadein {from {opacity: 0;} to {opacity: 1;}}
 
 /* COMMENTS
 
