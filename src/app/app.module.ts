@@ -1,3 +1,4 @@
+import {enableProdMode}           from '@angular/core';
 import { NgModule } 	            from '@angular/core';
 import { BrowserModule }          from '@angular/platform-browser';
 import { FormsModule }            from '@angular/forms';
@@ -17,6 +18,8 @@ import { ProcessComponent }       from './static/section-process.component';
 import { IdentityComponent }      from './static/section-identity.component';
 import { ContactComponent }       from './forms/section-contact.component';
 import { FooterComponent }        from './static/footer.component';
+
+enableProdMode();
 
 @NgModule({
   imports: [ 

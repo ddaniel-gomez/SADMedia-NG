@@ -1,2 +1,6 @@
 src/bircham
 dist
+.DS_Store
+COMPASS.txt
+config.rb
+src/.sass-cache

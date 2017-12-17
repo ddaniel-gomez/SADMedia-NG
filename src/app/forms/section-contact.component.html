@@ -18,7 +18,8 @@
               <h3 class="center deep-orange-text"><i class="large material-icons">send</i></h3>
               <h4>{{getI18n('contact').desc}}</h4>
               <p class="left-align light">{{getI18n('sec4').desc}}</p>
-                {{diagnostic}}
+              <p class="left-align light">{{getI18n('sec5').desc}}</p>
+                <!--{{diagnostic}}-->
                 <div [hidden]="!submitted">
                     <a (click)="sendAgain();" href="javascript:;">send again</a>
                 </div>

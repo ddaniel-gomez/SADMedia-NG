@@ -62,7 +62,7 @@
 	    "company": "Las Hadas"
 	  }, {
 	    "start": "03-07-2017",
-	    "end": "28-08-2017",
+	    "end": "28-11-2017",
 	    "company": "TuEquus"
 	  }, {
 	    "start": "18-02-2011",
@@ -96,6 +96,10 @@
 	    "start": "20-03-2017",
 	    "end": "10-04-2017",
 	    "company": "OP3Pharmaceuticals"
+	  }, {
+	    "start": "10-11-2017",
+	    "end": "15-12-2017",
+	    "company": "kywyky"
 	  } ]
 	}, {
 	  "category": "Company",
@@ -144,5 +148,7 @@
 	},
 	"addClassNames": true
 	} );
+	chart.zoomToCategoryValues("04-05-2008", "12-12-2017");debugger;
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space

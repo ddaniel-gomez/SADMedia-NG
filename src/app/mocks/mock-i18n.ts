@@ -28,6 +28,7 @@ export const I18N: I18n[] = [
 	{ id:22, title: "tit3_3", desc: "Habilidades que entreno a diario... o casi!"},
 	{ id:23, title: "tit4", desc: "Los seres humanos son el potencial básico de todo el proceso"},
 	{ id:24, title: "sec4", desc: "Si quieres hablamos sobre proyectos. Siempre estoy abierto a nuevos retos. Quieres materializar algo online? Seguramente podamos ponernos de acuerdo ;-)"},
+	{ id:38, title: "sec5", desc: "Ando probando el formulario de envío, escríbeme de momento a ddaniel.gomez@gmail.com. Gracias!"},
 	{ id:25, title: "send", desc: "Enviar"},
 	{ id:26, title: "message", desc: "Mensaje"},
 	{ id:27, title: "subject", desc: "Asunto"},

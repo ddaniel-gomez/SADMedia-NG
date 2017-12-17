@@ -26,7 +26,8 @@ export class ContactComponent implements OnInit {
 	}
 
 	//contact: Contact[] = [];
-	model = new Contact(18, 'Daniel Gomez', 'ddaniel.gomez.mail@mail.com', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ex neque. Nulla lobortis arcu ut lectus pharetra, at tristique ante fermentum.', 'Subject about things');
+	//model = new Contact(18, 'Daniel Gomez', 'ddaniel.gomez.mail@mail.com', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ex neque. Nulla lobortis arcu ut lectus pharetra, at tristique ante fermentum.', 'Subject about things');
+	model = new Contact(99, '', '', '', '');
 	submitted = false;
 
 	newContact() {

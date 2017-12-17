@@ -14,6 +14,11 @@
       return false;
     });
 
+    $('.go-down').on('click', function(){
+      $("html, body").animate({ scrollTop: $(window).height() - 50}, 600);
+      return false;
+    });
+
     $(window).scroll( function(){
       var screenTop = $(document).scrollTop();
       if(screenTop > 600){

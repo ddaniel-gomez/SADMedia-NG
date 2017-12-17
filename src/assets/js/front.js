@@ -1,10 +1,6 @@
 (function($){
   $(function(){
-  	$('.go-down').on('click', function(){
-      $("html, body").animate({ scrollTop: $(window).height() - 50}, 600);
-      return false;
-    });
-	$(document).mousemove(function( event ) {
+  	$(document).mousemove(function( event ) {
 	    if($('#nav-mouse').length){
 		    var arrow = document.querySelector("#nav-mouse");
 		    var arrowRects = arrow.getBoundingClientRect();
