@@ -8,4 +8,5 @@ COMPASS.txt
 config.rb
 src/.sass-cache
 prepros-6.config
+src/prepros-6.config
 src/from compass

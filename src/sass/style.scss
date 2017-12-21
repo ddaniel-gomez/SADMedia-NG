@@ -147,8 +147,8 @@ nav {
       max-width: 100%; 
       border-radius: 50%;
       transition: .15s;
-      
-      &:hover, &:active {
+      span {background: #455a64 !important;}
+      &:hover {
         filter: grayscale(0);
       }
       &.active span {background: $accent-color !important;}
@@ -165,7 +165,7 @@ nav {
     display: block;
     padding-top: 100%;  /* initial ratio of 1:1*/
     //just for carousel
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/background10.jpg);
+    //background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/background10.jpg);
     background-size: cover;
     filter: brightness(11) blur(20px);
     border-radius: 50%;
@@ -271,7 +271,24 @@ nav {
 #map {width: 100%; height: 90vh;}
 
 .input-field .prefix {color: #d0d0d0;}
-#chartdiv {width: 100%; height: 150px; background: #fff; box-shadow: 0 0 15px #ccc; border-radius: 3px;}
+
+#chartdiv {width: 100%; height: 100%;}
+
+.chalk {
+  background: url('/assets/img/chalk-bg.jpg'); 
+  box-shadow: 0 0 15px #ccc; 
+  border-radius: 3px;
+  height: 350px;
+  width: 100%;
+  padding: 30px;
+}
+
+.amcharts-axis-label, .amcharts-balloon-div {font-size: 1.8em;}
+
+.amcharts-balloon-bg {
+  stroke: #FF5722;
+  fill: #fff;
+}
 
 .row-flex {display: flex; justify-content: center;}
 
