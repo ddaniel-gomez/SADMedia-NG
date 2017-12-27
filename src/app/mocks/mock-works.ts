@@ -22,7 +22,7 @@ export const OLD_WORKS: Work[] = [
 
 //new carousel works
 export const WORKS: Work[] = [
-  { id: 21, pict: 'assets/img/slide/kywyky.jpg', name: 'test', title: 'kywyky.com', desc: 'Mediación de seguros privados.' },
+  { id: 21, pict: 'assets/img/slide/kywyky.jpg', name: 'test', title: 'kywyky.com', desc: 'Mediación de seguros privados. Golang' },
   { id: 1, pict: 'assets/img/slide/op3pharmaceuticals.jpg', name: 'test', title: 'OP3 Pharmaceuticals', desc: 'Bolt CMS, twig, Symphony, RWD.' },
   { id: 2, pict: 'assets/img/slide/campo4.jpg', name: 'test', title: 'Campo4.com', desc: 'Drupal 7 CMS, RWD, diseño, geolocalización, actividades en tiempo real.' },
   { id: 3, pict: 'assets/img/slide/avalon.jpg', name: 'test', title: 'Avalon Informática', desc: 'Drupal 8. Symfony, twig. Identidad corporativa, gestión de contenidos, desarrollo de módulos, internacionalización, ...' },
