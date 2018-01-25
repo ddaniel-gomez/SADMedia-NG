@@ -1,7 +1,10 @@
 var initPage = (function() { 
   return { 
     init: function() {}, //init
-    sendEmail: function(){$('#presend').addClass('sending');}
+    sendEmail: function(){
+    	//$('#presend').addClass('sending');
+    	$('.letter').addClass('sending');
+    }
   } 
 })(initPage||{})
 

@@ -6,7 +6,7 @@ import { WorkService } 	from './work.service';
 import { I18n } 		from '../i18n/i18n';
 import { I18N }			from '../mocks/mock-i18n';
 
-declare var initPage: any;
+//declare var initPage: any;
 
 @Component({
   selector: 'section-jobs',
@@ -18,7 +18,7 @@ export class JobsComponent implements OnInit {
 	works: Work[];
 
 	constructor(private workService: WorkService) {
-		initPage.init();
+		//initPage.init();
 	}
 
 	getWorks(): void {

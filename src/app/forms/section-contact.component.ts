@@ -5,9 +5,6 @@ import { I18n } 	from '../i18n/i18n';
 import { I18N }		from '../mocks/mock-i18n';
 import { Contact }	from './contact';
 
-//import 'assets/js/init-ng.js';
-
-//declare var initPage: any;
 declare var google: any;
 
 
@@ -30,18 +27,30 @@ export class ContactComponent implements OnInit {
 	model = new Contact(99, '', '', '', '');
 	submitted = false;
 
-	newContact() {
-		console.log(JSON.stringify(this.model));
-		this.model = new Contact(20, '', '', '', '');
-		this.submitted = true;
-		//initPage.sendEmail();
+	newContact() : void {
+		$('.letter').addClass('sending');
+		setTimeout(function() {
+			this.submitted = true;	
+			$('.letter').removeClass('sending');
+			$('.success-send').addClass('sended valign-wrapper');
+		}.bind(this), 300);
+		alert('saved:'+ JSON.stringify(this.model));
 	}
 
-	sendAgain() {this.submitted = false;}
+	/*newContact() {
+		console.log(JSON.stringify(this.model));
+		this.submitted = true;
+		initPage.sendEmail();
+	}*/
 
-	onSubmit() { 
+	/*onSubmit() { 
 		console.log('--'+this.submitted+'--');
 		this.submitted = true;
+	}*/
+
+	sendAgain() : void {
+		this.submitted = false;
+		$('.success-send').removeClass('sended valign-wrapper');
 	}
 
 	ngOnInit(): void {

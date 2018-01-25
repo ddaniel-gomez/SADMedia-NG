@@ -20,27 +20,36 @@
               <p class="left-align light">{{getI18n('sec4').desc}}</p>
               <p class="left-align light">{{getI18n('sec5').desc}}</p>
                 <!--{{diagnostic}}-->
-                <div [hidden]="!submitted">
-                    <a (click)="sendAgain();" href="javascript:;">send again</a>
+                <div [hidden]="!submitted" class="success-send">
+                    <p>
+                        Gracias! Me pongo en contacto contigo.<br>
+                        <a (click)="sendAgain();" class="btn waves-effect waves-light dark-primary-color"><i class="material-icons right">send</i>Enviar de nuevo</a>
+                    </p>
+                    
+                    <!--button (click)="sendAgain(); class="btn waves-effect waves-light dark-primary-color">
+                        Enviar de nuevo
+                        <i class="material-icons right">send</i>
+                    </button-->
                 </div>
-                <div [hidden]="submitted">
-                    <form (ngSubmit)="onSubmit()" #contact="ngForm">
+                <div [hidden]="submitted" class="letter">
+                    <form (ngSubmit)="newContact()" #contact="ngForm">
                         <div class="row">
                             <div class="input-field col s12 m6">
                                 <i class="material-icons prefix">account_circle</i>
-                                <input [(ngModel)]="model.name" id="name" type="text" name="name" class="validate" required="" aria-required="true">
+                                <input [(ngModel)]="model.name" id="name" type="text" name="name" required aria-required="true">
                                 <label for="last_name"><sup>*</sup>{{getI18n('name').desc}}</label>
                             </div>
+                            
                             <div class="input-field col s12 m6">
                                 <i class="material-icons prefix">email</i>
-                                <input [(ngModel)]="model.email" id="email" type="email" name="email" class="validate" required="" aria-required="true">
+                                <input [(ngModel)]="model.email" id="email" type="email" name="email" required aria-required="true">
                                 <label for="last_name"><sup>*</sup>{{getI18n('email').desc}}</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">subject</i>
-                                <input [(ngModel)]="model.subject" id="subject" type="text" name="subject" class="validate">
+                                <input [(ngModel)]="model.subject" id="subject" type="text" name="subject">
                                 <label for="last_name">{{getI18n('subject').desc}}</label>
                             </div>
                         </div>

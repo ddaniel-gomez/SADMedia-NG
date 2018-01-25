@@ -292,12 +292,23 @@ nav {
 
 .row-flex {display: flex; justify-content: center;}
 
+.success-send {transition: 1.8s; transform: scale(0);}
+.sended {
+  transform: scale(1); height: 400px; background-color: #fff;
+  p {width: 100%;}
+  a {text-align: center; width: 275px;}
+}
+.letter {transition: .6s;}
+.sending {transform: scale(0);}
+
 form {
   background: #fff;
   box-shadow: 0 0 15px #ccc;
   padding: 30px !important;
   border-radius: 3px;
 }
+
+button:focus {box-shadow: 0 0 0px 3px #26a69a;}
 
 /*__________ footer __________*/
 
