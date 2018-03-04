@@ -6,6 +6,7 @@ import { I18N }		from '../mocks/mock-i18n';
 import { Contact }	from './contact';
 
 declare var google: any;
+declare var emailjs: any;
 
 
 @Component({
@@ -22,8 +23,6 @@ export class ContactComponent implements OnInit {
 	  return I18N.find(x => x.title === title);
 	}
 
-	//contact: Contact[] = [];
-	//model = new Contact(18, 'Daniel Gomez', 'ddaniel.gomez.mail@mail.com', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ex neque. Nulla lobortis arcu ut lectus pharetra, at tristique ante fermentum.', 'Subject about things');
 	model = new Contact(99, '', '', '', '');
 	submitted = false;
 
@@ -34,19 +33,17 @@ export class ContactComponent implements OnInit {
 			$('.letter').removeClass('sending');
 			$('.success-send').addClass('sended valign-wrapper');
 		}.bind(this), 300);
-		alert('saved:'+ JSON.stringify(this.model));
+		//alert('saved:'+ JSON.stringify(this.model.name));
+
+		//using emailjs
+		// parameters: service_id, template_id, template_parameters
+		emailjs.sendForm("gmail","angular_form","ngForm")
+		.then(function(response) {
+		   console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+		}, function(err) {
+		   console.log("FAILED. error=", err);
+		});
 	}
-
-	/*newContact() {
-		console.log(JSON.stringify(this.model));
-		this.submitted = true;
-		initPage.sendEmail();
-	}*/
-
-	/*onSubmit() { 
-		console.log('--'+this.submitted+'--');
-		this.submitted = true;
-	}*/
 
 	sendAgain() : void {
 		this.submitted = false;
@@ -59,7 +56,7 @@ export class ContactComponent implements OnInit {
 	}
 
 	// TODO: Remove this when we're done
-  	get diagnostic() { return JSON.stringify(this.model); }
+  	//get diagnostic() { return JSON.stringify(this.model); }
 }
 
 

@@ -22,11 +22,12 @@ export const OLD_WORKS: Work[] = [
 
 //new carousel works
 export const WORKS: Work[] = [
+  { id: 21, pict: 'assets/img/slide/tuequus.jpg', name: 'test', title: 'tuequus.com', desc: 'Portal equino de información. Drupal Builder' },
   { id: 21, pict: 'assets/img/slide/kywyky.jpg', name: 'test', title: 'kywyky.com', desc: 'Mediación de seguros privados. Golang' },
   { id: 1, pict: 'assets/img/slide/op3pharmaceuticals.jpg', name: 'test', title: 'OP3 Pharmaceuticals', desc: 'Bolt CMS, twig, Symphony, RWD.' },
   { id: 2, pict: 'assets/img/slide/campo4.jpg', name: 'test', title: 'Campo4.com', desc: 'Drupal 7 CMS, RWD, diseño, geolocalización, actividades en tiempo real.' },
-  { id: 3, pict: 'assets/img/slide/avalon.jpg', name: 'test', title: 'Avalon Informática', desc: 'Drupal 8. Symfony, twig. Identidad corporativa, gestión de contenidos, desarrollo de módulos, internacionalización, ...' },
   { id: 4, pict: 'assets/img/slide/arcadia.jpg', name: 'test', title: 'Arcadia Suite', desc: 'Aplicación modular de gestión web. Usabilidad, estructuración de contenidos, gestión de la interface.' },
+  { id: 3, pict: 'assets/img/slide/avalon.jpg', name: 'test', title: 'Avalon Informática', desc: 'Drupal 8. Symfony, twig. Identidad corporativa, gestión de contenidos, desarrollo de módulos, internacionalización, ...' },
   { id: 14, pict: 'assets/img/slide/rumbo.jpg', name: 'test', title: 'Rumbo.es', desc: 'Propuesta para el buscador avanzado.' },
   { id: 15, pict: 'assets/img/slide/google.jpg', name: 'test', title: 'Google', desc: 'Preparación para una entrevista en Google Zurich.' },
   { id: 5, pict: 'assets/img/slide/quickimage.jpg', name: 'test', title: 'QuickImage', desc: 'Análisis heurístico para relanzar las ventas.' },
