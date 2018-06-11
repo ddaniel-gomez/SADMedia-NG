@@ -22,6 +22,7 @@ export const OLD_WORKS: Work[] = [
 
 //new carousel works
 export const WORKS: Work[] = [
+  { id: 21, pict: 'assets/img/slide/ws.jpg', name: 'test', title: 'wealthsolutions.com', desc: 'Portal corporativo de gestión patrimonial. Golang' },
   { id: 21, pict: 'assets/img/slide/tuequus.jpg', name: 'test', title: 'tuequus.com', desc: 'Portal equino de información. Drupal Builder' },
   { id: 21, pict: 'assets/img/slide/kywyky.jpg', name: 'test', title: 'kywyky.com', desc: 'Mediación de seguros privados. Golang' },
   { id: 1, pict: 'assets/img/slide/op3pharmaceuticals.jpg', name: 'test', title: 'OP3 Pharmaceuticals', desc: 'Bolt CMS, twig, Symphony, RWD.' },
