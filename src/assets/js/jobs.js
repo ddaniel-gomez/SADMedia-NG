@@ -104,12 +104,20 @@
 	        "start": "20-03-2017",
 	        "end": "10-04-2017",
 	        "company": "OP3Pharmaceuticals"
+	      }, {
+	        "start": "20-04-2018",
+	        "end": "01-07-2018",
+	        "company": "ioBUILDERS"
+	      }, {
+	        "start": "20-03-2018",
+	        "end": "20-04-2018",
+	        "company": "Wealth Solutions"
 	      } ]
 	    }, {
 	      "category": "Company",
 	      "segments": [ {
 	        "start": "09-04-2007",
-	        "end": "01-12-2017",
+	        "end": "01-07-2018",
 	        "color": "#4f7c92",
 	        "company": "Avalon Informática y Servicios"
 	      }, {

@@ -27,5 +27,13 @@
         $('.go-up').hide();
       }
     });
+
+    function log() {
+      setTimeout(console.log.bind(console, "%c welcome to SADMedia! %c \n feel at home :)", "background: #f44336; color:#FFF; padding:5px; border-radius: 3px; font-weight: bold; line-height: 100px; font-size: large;", "font-size: x-large;"));
+      console.log("hi there, what's up?");
+    }
+    
+    log();
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
