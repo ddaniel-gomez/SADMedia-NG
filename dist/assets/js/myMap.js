@@ -193,7 +193,7 @@ var map;
     position: {lat: 40.576608, lng: -3.929365},
     map: map,
     title: "Here I'm!",
-    icon: 'https://www.sadmedia.com/img/map-marker-icon.png'
+    icon: '/SADMedia-NG/assets/img/map-marker-icon.png'
   });
   loc = new google.maps.LatLng(marker.position.lat(), marker.position.lng());
   bounds.extend(loc);
@@ -215,7 +215,7 @@ var map;
         position: pos,
         map: map,
         title: "You're here",
-        icon: 'https://www.sadmedia.com/img/map-marker-icon-visitor.png'
+        icon: '/SADMedia-NG/assets/img/map-marker-icon-visitor.png'
       });
       loc2 = new google.maps.LatLng(marker2.position.lat(), marker2.position.lng());
       bounds.extend(loc2);
