@@ -279,8 +279,8 @@ var ContactComponent = (function () {
         $('.success-send').removeClass('sended valign-wrapper');
     };
     ContactComponent.prototype.ngOnInit = function () {
-        $.getScript('../assets/js/init.js');
-        $.getScript('../assets/js/myMap.js');
+        $.getScript('/SADMedia-NG/assets/js/init.js');
+        $.getScript('/SADMedia-NG/assets/js/myMap.js');
     };
     return ContactComponent;
 }());
@@ -513,8 +513,8 @@ var FrontComponent = (function () {
         return __WEBPACK_IMPORTED_MODULE_1__mocks_mock_i18n__["a" /* I18N */].find(function (x) { return x.title === title; });
     };
     FrontComponent.prototype.ngOnInit = function () {
-        $.getScript('../assets/js/init.js');
-        $.getScript('../assets/js/front.js');
+        $.getScript('/SADMedia-NG/assets/js/init.js');
+        $.getScript('/SADMedia-NG/assets/js/front.js');
     };
     return FrontComponent;
 }());
@@ -558,7 +558,7 @@ var AboutComponent = (function () {
         return __WEBPACK_IMPORTED_MODULE_1__mocks_mock_i18n__["a" /* I18N */].find(function (x) { return x.title === title; });
     };
     AboutComponent.prototype.ngOnInit = function () {
-        $.getScript('../assets/js/init.js');
+        $.getScript('/SADMedia-NG/assets/js/init.js');
     };
     return AboutComponent;
 }());
@@ -602,7 +602,7 @@ var IdentityComponent = (function () {
         return __WEBPACK_IMPORTED_MODULE_1__mocks_mock_i18n__["a" /* I18N */].find(function (x) { return x.title === title; });
     };
     IdentityComponent.prototype.ngOnInit = function () {
-        $.getScript('../assets/js/init.js');
+        $.getScript('/SADMedia-NG/assets/js/init.js');
     };
     return IdentityComponent;
 }());
@@ -646,7 +646,7 @@ var ProcessComponent = (function () {
         return __WEBPACK_IMPORTED_MODULE_1__mocks_mock_i18n__["a" /* I18N */].find(function (x) { return x.title === title; });
     };
     ProcessComponent.prototype.ngOnInit = function () {
-        $.getScript('../assets/js/init.js');
+        $.getScript('/SADMedia-NG/assets/js/init.js');
     };
     return ProcessComponent;
 }());
@@ -703,8 +703,8 @@ var JobsComponent = (function () {
     };
     JobsComponent.prototype.ngOnInit = function () {
         this.getWorks();
-        $.getScript('../assets/js/init.js');
-        $.getScript('../assets/js/jobs.js');
+        $.getScript('/SADMedia-NG/assets/js/init.js');
+        $.getScript('/SADMedia-NG/assets/js/jobs.js');
     };
     return JobsComponent;
 }());
