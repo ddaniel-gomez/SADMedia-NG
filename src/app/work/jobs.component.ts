@@ -31,8 +31,8 @@ export class JobsComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.getWorks();
-		$.getScript('/SADMedia-NG/assets/js/init.js');
-		$.getScript('/SADMedia-NG/assets/js/jobs.js');
+		$.getScript('/assets/js/init.js');
+		$.getScript('/assets/js/jobs.js');
 	}
 }
 
