@@ -1,8 +1,8 @@
-import {enableProdMode}           from '@angular/core';
-import { NgModule } 	            from '@angular/core';
+import {enableProdMode, NgModule} from '@angular/core';
 import { BrowserModule }          from '@angular/platform-browser';
 import { FormsModule }            from '@angular/forms';
 import { RouterModule, Routes }   from '@angular/router';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import {HttpClientModule}         from '@angular/common/http';
 
 import { AppComponent }           from './app.component';
@@ -20,6 +20,7 @@ import { ContactComponent }       from './forms/section-contact.component';
 import { FooterComponent }        from './static/footer.component';
 
 enableProdMode();
+
 
 @NgModule({
   imports: [ 
@@ -40,8 +41,11 @@ enableProdMode();
   	ContactComponent,
     FooterComponent
   ],
-  providers: [ WorkService ],
-  bootstrap: [ AppComponent ]
+  providers: [ 
+    WorkService, 
+    {provide: LocationStrategy, useClass: HashLocationStrategy} 
+  ],
+  bootstrap: [ AppComponent ],
 })
 
 export class AppModule {}

@@ -127,19 +127,20 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__("../../../common/@angular/common/http.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__work_work_component__ = __webpack_require__("../../../../../src/app/work/work.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__work_work_service__ = __webpack_require__("../../../../../src/app/work/work.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__work_jobs_component__ = __webpack_require__("../../../../../src/app/work/jobs.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__nav_navigation_component__ = __webpack_require__("../../../../../src/app/nav/navigation.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__static_front_component__ = __webpack_require__("../../../../../src/app/static/front.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__static_section_about_component__ = __webpack_require__("../../../../../src/app/static/section-about.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__static_section_process_component__ = __webpack_require__("../../../../../src/app/static/section-process.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__static_section_identity_component__ = __webpack_require__("../../../../../src/app/static/section-identity.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__forms_section_contact_component__ = __webpack_require__("../../../../../src/app/forms/section-contact.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__static_footer_component__ = __webpack_require__("../../../../../src/app/static/footer.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__("../../../common/@angular/common/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__work_work_component__ = __webpack_require__("../../../../../src/app/work/work.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__work_work_service__ = __webpack_require__("../../../../../src/app/work/work.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__work_jobs_component__ = __webpack_require__("../../../../../src/app/work/jobs.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nav_navigation_component__ = __webpack_require__("../../../../../src/app/nav/navigation.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__static_front_component__ = __webpack_require__("../../../../../src/app/static/front.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__static_section_about_component__ = __webpack_require__("../../../../../src/app/static/section-about.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__static_section_process_component__ = __webpack_require__("../../../../../src/app/static/section-process.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__static_section_identity_component__ = __webpack_require__("../../../../../src/app/static/section-identity.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__forms_section_contact_component__ = __webpack_require__("../../../../../src/app/forms/section-contact.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__static_footer_component__ = __webpack_require__("../../../../../src/app/static/footer.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -174,23 +175,26 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_5__app_routing_module__["a" /* AppRoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["b" /* HttpClientModule */]
+            __WEBPACK_IMPORTED_MODULE_6__app_routing_module__["a" /* AppRoutingModule */],
+            __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClientModule */]
         ],
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__nav_navigation_component__["a" /* NavigationComponent */],
-            __WEBPACK_IMPORTED_MODULE_6__work_work_component__["a" /* WorkComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__work_jobs_component__["a" /* JobsComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__static_section_about_component__["a" /* AboutComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__static_front_component__["a" /* FrontComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__static_section_process_component__["a" /* ProcessComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__static_section_identity_component__["a" /* IdentityComponent */],
-            __WEBPACK_IMPORTED_MODULE_14__forms_section_contact_component__["a" /* ContactComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__static_footer_component__["a" /* FooterComponent */]
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__nav_navigation_component__["a" /* NavigationComponent */],
+            __WEBPACK_IMPORTED_MODULE_7__work_work_component__["a" /* WorkComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__work_jobs_component__["a" /* JobsComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__static_section_about_component__["a" /* AboutComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__static_front_component__["a" /* FrontComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__static_section_process_component__["a" /* ProcessComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__static_section_identity_component__["a" /* IdentityComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__forms_section_contact_component__["a" /* ContactComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__static_footer_component__["a" /* FooterComponent */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_7__work_work_service__["a" /* WorkService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_8__work_work_service__["a" /* WorkService */],
+            { provide: __WEBPACK_IMPORTED_MODULE_3__angular_common__["g" /* LocationStrategy */], useClass: __WEBPACK_IMPORTED_MODULE_3__angular_common__["d" /* HashLocationStrategy */] }
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]],
     })
 ], AppModule);
 
