@@ -13,6 +13,6 @@ export class IdentityComponent implements OnInit {
 	  return I18N.find(x => x.title === title);
 	}
 	ngOnInit(): void {
-		$.getScript('/assets/js/init.js');
+		$.getScript('assets/js/init.js');
 	}
 }

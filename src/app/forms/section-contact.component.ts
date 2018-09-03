@@ -51,8 +51,8 @@ export class ContactComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		$.getScript('/assets/js/init.js');
-		$.getScript('/assets/js/myMap.js');
+		$.getScript('assets/js/init.js');
+		$.getScript('assets/js/myMap.js');
 	}
 
 	// TODO: Remove this when we're done
