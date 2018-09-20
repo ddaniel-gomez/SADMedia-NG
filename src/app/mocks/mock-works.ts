@@ -22,6 +22,7 @@ export const OLD_WORKS: Work[] = [
 
 //new carousel works
 export const WORKS: Work[] = [
+  { id: 21, pict: 'assets/img/slide/khipus.jpg', name: 'test', title: 'khipus.io', desc: 'Khipus, certifica tus documentos. Golang' },
   { id: 21, pict: 'assets/img/slide/ioBUILDERS.jpg', name: 'test', title: 'io.builders', desc: 'Blockchain venture builders. Golang' },
   { id: 21, pict: 'assets/img/slide/ws.jpg', name: 'test', title: 'wealthsolutions.com', desc: 'Portal corporativo de gestión patrimonial. Golang' },
   { id: 21, pict: 'assets/img/slide/tuequus.jpg', name: 'test', title: 'tuequus.com', desc: 'Portal equino de información. Drupal Builder' },
