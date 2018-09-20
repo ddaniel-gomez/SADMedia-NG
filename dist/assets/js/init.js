@@ -7,6 +7,6 @@
     scrollme.init();
     Materialize.updateTextFields();
     //location reload on contact
-    console.log("location: " + window.location.pathname);
+    //window.location.href.indexOf("contact") > -1
   }); // end module
 })(jQuery); // end of jQuery name space
