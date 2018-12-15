@@ -158,7 +158,13 @@
 		"export": {
 		  "enabled": false
 		},
-		"addClassNames": true
+		"addClassNames": true,
+		listeners: [{
+			event: "init",
+			method: function(e) {
+				e.chart.valueAxis.zoomToValues(new Date(2015, 0, 1), new Date(2018, 11, 31)); //set default zoom
+		 }
+		}]
 	}); //end chart var
 
 
